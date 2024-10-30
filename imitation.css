@@ -1,1 +1,12 @@
 /* CSS for your imitation here */
+.BOX {
+  border: 1px solid rgb(251, 2, 2);
+  width: 800px ;
+  height: 480px ;
+  background-color: rgb(86, 24, 24);
+}
+.more{
+  background-color: brown;
+  width: 600px;
+  height: 350px;
+}
