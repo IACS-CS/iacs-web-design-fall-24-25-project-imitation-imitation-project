@@ -5,8 +5,21 @@
   height: 480px ;
   background-color: rgb(86, 24, 24);
 }
-.more{
+.b1c{
+  width: 610px;
+  height: 360px;
+  background-color: aliceblue;
+  display: flex;
+}
+.bc {
   background-color: brown;
   width: 600px;
   height: 350px;
+  padding-left: 30px;
+}
+
+.bt {
+  background-color: rgb(36, 36, 73) ;
+  width: 90px;
+  height: 40px;
 }
