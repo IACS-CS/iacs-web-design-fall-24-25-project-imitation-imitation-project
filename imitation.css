@@ -1,25 +1,58 @@
 /* CSS for your imitation here */
-.BOX {
-  border: 1px solid rgb(251, 2, 2);
-  width: 800px ;
-  height: 480px ;
-  background-color: rgb(86, 24, 24);
-}
-.b1c{
-  width: 610px;
-  height: 360px;
-  background-color: aliceblue;
-  display: flex;
-}
-.bc {
-  background-color: brown;
-  width: 600px;
-  height: 350px;
-  padding-left: 30px;
+/* first layer*/
+
+.REDBOX {
+    border: 1px solid rgb(251, 2, 2);
+    width: 863px ;
+    height: 536px ;
+    background:radial-gradient(circle at top,#6E1016 0%,#300b0b 100%);
+  }
+  
+  .topredbox {
+   height:30% ; 
+   width: 14%;
+   background-color: rgba(0, 255, 255, 0);
+   display:flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: center;
+  }
+  
+  
+  .boxtop {
+    background-color:#119bd100;
+    width: 103px;
+    height: 119px;
+    
+  }
+ 
+  .boxcenter {
+    background:radial-gradient(circle at top,#8A343C 0%, #321A1A 100%);
+    width: 600px;
+    height: 350px;
+    display: flex;
+    border: 3px solid #A95A6D;
+  
+  }
+  
+  .bottomredbox{
+    width: 100%;
+    height: 70%;
+    background-color: rgba(240, 248, 255, 0);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 
-.bt {
-  background-color: rgb(36, 36, 73) ;
-  width: 90px;
-  height: 40px;
+.boxtop {
+     text-shadow: rgb(255, 255, 255) 0px -1px ;
+    font-size:292%;
 }
+
+.red {
+    color:#D10E36 ;
+}
+
+.blue {
+    color:#119CD1 ;
+  }
