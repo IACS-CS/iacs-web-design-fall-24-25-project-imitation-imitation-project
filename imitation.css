@@ -6,6 +6,7 @@
     width: 863px ;
     height: 536px ;
     background:radial-gradient(circle at top,#6E1016 0%,#300b0b 100%);
+    overflow: hidden;
   }
   
   .topredbox {
@@ -32,6 +33,10 @@
     height: 350px;
     display: flex;
     border: 3px solid #A95A6D;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
   
   }
   
@@ -56,3 +61,19 @@
 .blue {
     color:#119CD1 ;
   }
+
+.square {
+  width: 437px;
+  height: 450px;
+  border: 10px solid rgb(62, 36, 36);
+  background-color: beige;
+  display: grid;
+  place-content: center;
+  transform: perspective(1295px) rotateY(5deg) rotateX(52deg) rotateZ(229deg);
+  position: absolute;
+  top: -69px;
+  left: 74px;
+  right: 2px;
+  bottom: 8px;
+  
+}
