@@ -69,11 +69,90 @@
   background-color: beige;
   display: grid;
   place-content: center;
-  transform: perspective(1295px) rotateY(5deg) rotateX(52deg) rotateZ(229deg);
+  transform: perspective(1295px) rotateY(5deg) rotateX(52deg) rotateZ(-41deg);
   position: absolute;
   top: -69px;
   left: 74px;
   right: 2px;
   bottom: 8px;
-  
+
 }
+
+
+
+.tile{
+    display: grid;
+    place-content: center;
+    width: 41px;
+    height: 41px;
+    background: brown;
+    color: white;
+    border: 2px solid tan;
+    box-shadow: 1px 1px #222;
+}
+.scrabble-board {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.scrabble-board td {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.triple-word {
+  background-color: #722e2e; /* Red */
+}
+
+.double-word {
+  background-color: rgb(235, 120, 237); /* Light Yellow */
+}
+
+.triple-letter {
+  background-color: #8bbcff; /* Blue */
+}
+
+.double-letter {
+  background-color: #aff; /* Light Blue */
+}
+
+.center {
+  background-color: #ff8b8b; /* Red for star */
+  font-weight: bold;
+  background: brown;
+  color: white;
+  border: 2px solid tan;
+  box-shadow: 1px 1px #222;
+}
+  .scrabble-board {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.scrabble-board td {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.triple-word {
+  background-color: #722e2e; /* Red */
+}
+
+.double-word {
+  background-color: rgb(235, 120, 237); /* Light Yellow */
+}
+
+.triple-letter {
+  background-color: #8bbcff; /* Blue */
+}
+
+.double-letter {
+  background-color: #aff; /* Light Blue */
+}
+
+
+
