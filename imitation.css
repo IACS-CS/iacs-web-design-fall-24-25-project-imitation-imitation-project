@@ -11,12 +11,12 @@
   
   .topredbox {
    height:30% ; 
-   width: 14%;
+   width: 100%;
    background-color: rgba(0, 255, 255, 0);
    display:flex;
    flex-direction: row;
-   align-items: flex-start;
-   justify-content: center;
+   justify-content: space-between;
+   
   }
   
   
@@ -24,7 +24,17 @@
     background-color:#119bd100;
     width: 103px;
     height: 119px;
-    
+  }
+
+  .centersrca{
+   background-color: green;
+   width: 30%;
+   height: 30%;
+  }
+
+  .right{
+   width: 103px;
+   height: 119px;
   }
  
   .boxcenter {
