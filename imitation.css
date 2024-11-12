@@ -2,81 +2,81 @@
 /* first layer*/
 
 .REDBOX {
-    border: 1px solid rgb(251, 2, 2);
-    width: 863px ;
-    height: 536px ;
-    background:radial-gradient(circle at top,#6E1016 0%,#300b0b 100%);
-    overflow: hidden;
-  }
-  
-  .topredbox {
-   height:30% ; 
-   width: 100%;
-   background-color: rgba(0, 255, 255, 0);
-   display:flex;
-   flex-direction: row;
-   justify-content: space-between;
-   
-  }
-  
-  
-  .boxtop {
-    background-color:#119bd100;
-    width: 103px;
-    height: 119px;
-  }
+  border: 1px solid rgb(251, 2, 2);
+  width: 863px ;
+  height: 536px ;
+  background:radial-gradient(circle at top,#6E1016 0%,#300b0b 100%);
+  overflow: hidden;
+}
 
-  .centersrca{
-   background-color: green;
-   width: 30%;
-   height: 30%;
-  }
+.topredbox {
+  height:30% ; 
+  width: 100%;
+  background-color: rgba(0, 255, 255, 0);
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
 
-  .right{
-   width: 103px;
-   height: 119px;
-  }
- 
-  .boxcenter {
-    background:radial-gradient(circle at top,#8A343C 0%, #321A1A 100%);
-    width: 600px;
-    height: 350px;
-    display: flex;
-    border: 3px solid #A95A6D;
-    position: relative;
-    justify-content: center;
-    flex-direction: row;
-    align-items: flex-end;
-  
-  }
-  
-  .bottomredbox{
-    width: 100%;
-    height: 70%;
-    background-color: rgba(240, 248, 255, 0);
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
+
+.boxtop {
+  background-color:#119bd100;
+  width: 103px;
+  height: 119px;
+}
+
+.centersrca{
+ background-color: green;
+ width: 57%;
+ height: 112%;
+}
+
+.right{
+ width: 103px;
+ height: 119px;
+}
+
+.boxcenter {
+  background:radial-gradient(circle at top,#8A343C 0%, #321A1A 100%);
+  width: 600px;
+  height: 350px;
+  display: flex;
+  border: 3px solid #A95A6D;
+  position: relative;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-end;
+
+}
+
+.bottomredbox{
+  width: 100%;
+  height: 70%;
+  background-color: rgba(240, 248, 255, 0);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
 }
 
 .boxtop {
-     text-shadow: rgb(255, 255, 255) 0px -1px ;
-    font-size:292%;
+   text-shadow: rgb(255, 255, 255) 0px -1px ;
+  font-size:292%;
 }
 
 .red {
-    color:#D10E36 ;
+  color:#D10E36 ;
 }
 
 .blue {
-    color:#119CD1 ;
-  }
+  color:#119CD1 ;
+}
 
 .square {
   width: 437px;
   height: 450px;
   border: 10px solid rgb(62, 36, 36);
-  background-color: beige;
+  background-color: #d6ba8a;
   display: grid;
   place-content: center;
   transform: perspective(1295px) rotateY(5deg) rotateX(52deg) rotateZ(-41deg);
@@ -85,7 +85,6 @@
   left: 74px;
   right: 2px;
   bottom: 8px;
-
 }
 
 
@@ -108,35 +107,35 @@
 .scrabble-board td {
   width: 32px;
   height: 32px;
-  border: 1px solid #ccc;
+  border: 2px solid #ffffff;
   text-align: center;
 }
 
 .triple-word {
-  background-color: #722e2e; /* Red */
+background-color: #722e2e; /* Red */
 }
 
 .double-word {
-  background-color: rgb(235, 120, 237); /* Light Yellow */
+background-color: #f8969e; /* Light Yellow */
 }
 
 .triple-letter {
-  background-color: #8bbcff; /* Blue */
+background-color: #8bbcff; /* Blue */
 }
 
 .double-letter {
-  background-color: #aff; /* Light Blue */
+background-color: #aff; /* Light Blue */
 }
 
 .center {
   background-color: #ff8b8b; /* Red for star */
   font-weight: bold;
-  background: brown;
-  color: white;
+  background: #db9d41;
+  color: rgb(0, 0, 0);
   border: 2px solid tan;
   box-shadow: 1px 1px #222;
 }
-  .scrabble-board {
+.scrabble-board {
   border-collapse: collapse;
   width: 100%;
 }
@@ -144,25 +143,46 @@
 .scrabble-board td {
   width: 32px;
   height: 32px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   text-align: center;
 }
 
 .triple-word {
-  background-color: #722e2e; /* Red */
+  background-color: #be4024; /* Red */
 }
 
 .double-word {
-  background-color: rgb(235, 120, 237); /* Light Yellow */
+background-color: #f8969e; /* Light Yellow */
 }
 
 .triple-letter {
-  background-color: #8bbcff; /* Blue */
+background-color: #75a1b8; /* Blue */
 }
 
 .double-letter {
-  background-color: #aff; /* Light Blue */
+  background-color:#3674b7; /* Light Blue */
 }
 
+.angel {
+  font-weight: bold;
+  background: #db9d41;
+  color: rgb(0, 0, 0);
+  border: 2px solid tan;
+  box-shadow: 1px 1px #222;
+}
 
+.lara {
+  font-weight: bold;
+  background: #db9d41;
+  color: rgb(0, 0, 0);
+  border: 2px solid tan;
+  box-shadow: 1px 1px #222;
+}
 
+.deborah {
+  font-weight: bold;
+  background: #db9d41;
+  color: rgb(0, 0, 0);
+  border: 2px solid tan;
+  box-shadow: 1px 1px #222;
+}
