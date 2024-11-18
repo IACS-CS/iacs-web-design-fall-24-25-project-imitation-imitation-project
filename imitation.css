@@ -2,6 +2,7 @@
 /* first layer*/
 @import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Cookie&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Cookie&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Nuosu+SIL&display=swap');
 
 .REDBOX {
   border: 1px solid rgb(251, 2, 2);
@@ -32,13 +33,15 @@
  font-family: "Great Vibes", cursive;
  font-weight: 400;
  font-style: normal;
- font-size: 24px;
+ font-size: 61px;
  display: flex;
  justify-content: center; /* Centrar horizontalmente */
  align-items: center; /* Centrar verticalmente */
  width: 57%;
  height: 112%;
+ color: white;
 }
+
 
 .underlinecontainer {
   flex-direction: column;
@@ -49,7 +52,7 @@
 .underline {
   width: 100%;
   height: 5px;
-  background: beige;
+  background: #e29d84;
 }
 
 .right{
@@ -107,6 +110,9 @@
   bottom: 8px;
 }
 
+.bote{
+
+}
 
 
 .tile{
@@ -205,4 +211,15 @@ background-color: #75a1b8; /* Blue */
   color: rgb(0, 0, 0);
   border: 2px solid tan;
   box-shadow: 1px 4px 5px 0px #222;
+}
+
+.bote{
+  font-family: Nuosu SIL;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  color: #e29d84;
 }
