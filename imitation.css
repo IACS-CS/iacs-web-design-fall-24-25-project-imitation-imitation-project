@@ -81,6 +81,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
+  position: relative;
 }
 
 .boxtop {
@@ -220,6 +221,86 @@ background-color: #75a1b8; /* Blue */
   box-shadow: 1px 4px 5px 0px #222;
 }
 
+.foreground{
+  width: 863px ;
+  height: 536px ;
+  position:absolute;
+}
+
+.hand {
+  width: 321px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  bottom: 40px;
+  height: 184px;
+}
+
+
+.WRED { 
+  position: absolute;
+  width: 189px;
+  height: 138px;
+  left: 125px;
+}
+
+.SIX {
+  position: absolute;
+  height: 123px;
+  width: 163px;
+  right: 138px;
+ }
+
+ 
+ @keyframes slide-in-left {
+  from {
+ transform: translateX(-100%);
+ }
+ to {
+ transform: translateX(0%);
+ }
+ }
+
+ .hand,.WRED {
+ animation: slide-in-left 1000ms;
+ }
+ 
+ .Bag{
+  position: absolute;
+  height: 214px;
+  width: 243px;
+  right: 0;
+  top: -32px;
+ }
+
+
+ @keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.SIX, .Bag {
+  animation: slide-in-right 1000ms;
+}
+
+.Milton{ 
+  color: white;
+  font-size:small ;
+  font-family: Roboto;
+}
+
+.Ages{
+  color: white;
+  font-size: xx-small;
+  font-family: Roboto;
+}
+
+
+
 .bote{
   font-family: Nuosu SIL;
   font-size: 20px;
@@ -230,9 +311,35 @@ background-color: #75a1b8; /* Blue */
   justify-content: space-around;
   color: #e29d84;
 }
-  
-}
 
 .te div{
   display: flex;
 }
+
+@keyframes slide-in-top {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
+
+  .encima {
+    display: block;
+    animation: slide-in-top 1000ms;
+    animation-timing-function: linear;
+  }
+
+/*
+
+.angel {
+   transform: translate(-20px,0);
+   transition: transform 300ms;
+}
+
+:hover .angel {
+  transform: translate(0,0);
+}
+
+*/
