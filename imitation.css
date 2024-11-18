@@ -220,6 +220,12 @@ background-color: #75a1b8; /* Blue */
   flex-direction: row;
   align-content: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   color: #e29d84;
+}
+  
+}
+
+.te div{
+  display: flex;
 }
