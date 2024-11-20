@@ -110,7 +110,7 @@
   background-color: #d6ba8a;
   display: grid;
   place-content: center;
-  transform: perspective(1295px) rotateY(5deg) rotateX(52deg) rotateZ(-41deg);
+  transform: perspective(1294px) rotateY(5deg) rotateX(52deg) rotateZ(-41deg);
   position: absolute;
   top: -69px;
   left: 74px;
@@ -118,9 +118,7 @@
   bottom: 8px;
 }
 
-.bote{
 
-}
 
 
 .tile{
