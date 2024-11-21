@@ -1,1 +1,343 @@
 /* CSS for your imitation here */
+/* first layer*/
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Cookie&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Cookie&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Nuosu+SIL&display=swap');
+
+.REDBOX {
+  border: 1px solid rgb(251, 2, 2);
+  width: 863px ;
+  height: 536px ;
+  background:radial-gradient(circle at top,#6E1016 0%,#300b0b 100%);
+  overflow: hidden;
+}
+
+.topredbox {
+  height:30% ; 
+  width: 100%;
+  background-color: rgba(0, 255, 255, 0);
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+
+.boxtop {
+  background-color:#119bd100;
+  width: 103px;
+  height: 119px;
+}
+
+.great-vibes-regular {
+ font-family: "Great Vibes", cursive;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 61px;
+ display: flex;
+ justify-content: center; /* Centrar horizontalmente */
+ align-items: center; /* Centrar verticalmente */
+ width: 57%;
+ height: 112%;
+ color: white;
+}
+
+
+.underlinecontainer {
+  flex-direction: column;
+  display: flex;
+  
+}
+
+.underline {
+  width: 100%;
+  height: 5px;
+  margin-top: -15px;
+  background: #e29d84;
+}
+
+.right{
+ width: 103px;
+ height: 119px;
+}
+
+.boxcenter {
+  background:radial-gradient(circle at top,#8A343C 0%, #321A1A 100%);
+  width: 600px;
+  height: 350px;
+  display: flex;
+  border: 3px solid #A95A6D;
+  position: relative;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-end;
+
+}
+
+.bottomredbox{
+  width: 100%;
+  height: 70%;
+  background-color: rgba(240, 248, 255, 0);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  position: relative;
+}
+
+.boxtop {
+   text-shadow: rgb(255, 255, 255) 0px -1px ;
+  font-size:292%;
+}
+
+.encima{
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.red {
+  color:#D10E36 ;
+}
+
+.blue {
+  color:#119CD1 ;
+}
+
+.square {
+  width: 437px;
+  height: 450px;
+  border: 10px solid rgb(62, 36, 36);
+  background-color: #d6ba8a;
+  display: grid;
+  place-content: center;
+  transform: perspective(1294px) rotateY(5deg) rotateX(52deg) rotateZ(-41deg);
+  position: absolute;
+  top: -69px;
+  left: 74px;
+  right: 2px;
+  bottom: 8px;
+}
+
+
+
+
+.tile{
+    display: grid;
+    place-content: center;
+    width: 41px;
+    height: 41px;
+    background: brown;
+    color: white;
+    border: 2px solid tan;
+    box-shadow: 1px 1px #222;
+}
+.scrabble-board {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.scrabble-board td {
+  width: 32px;
+  height: 32px;
+  border: 2px solid #ffffff;
+  text-align: center;
+}
+
+.triple-word {
+background-color: #722e2e; /* Red */
+}
+
+.double-word {
+background-color: #f8969e; /* Light Yellow */
+}
+
+.triple-letter {
+background-color: #8bbcff; /* Blue */
+}
+
+.double-letter {
+background-color: #aff; /* Light Blue */
+}
+
+.center {
+  background-color: #ff8b8b; /* Red for star */
+  font-weight: bold;
+  background: #db9d41;
+  color: rgb(0, 0, 0);
+  border: 2px solid tan;
+  box-shadow: -3px 1px 2px 0px #222;
+}
+.scrabble-board {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.scrabble-board td {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ffffff;
+  text-align: center;
+}
+
+.triple-word {
+  background-color: #be4024; /* Red */
+}
+
+.double-word {
+background-color: #f8969e; /* Light Yellow */
+}
+
+.triple-letter {
+background-color: #75a1b8; /* Blue */
+}
+
+.double-letter {
+  background-color:#3674b7; /* Light Blue */
+}
+
+.angel {
+  font-weight: bold;
+  background: #db9d41;
+  color: rgb(0, 0, 0);
+  border: 2px solid tan;
+  box-shadow: 0px 2px 3px 1px #222;
+}
+
+.lara {
+  font-weight: bold;
+  background: #db9d41;
+  color: rgb(0, 0, 0);
+  border: 2px solid tan;
+  box-shadow: 1px 1px #222;
+}
+
+.deborah {
+  font-weight: bold;
+  background: #db9d41;
+  color: rgb(0, 0, 0);
+  border: 2px solid tan;
+  box-shadow: 1px 4px 5px 0px #222;
+}
+
+.foreground{
+  width: 863px ;
+  height: 536px ;
+  position:absolute;
+}
+
+.hand {
+  width: 321px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  bottom: 40px;
+  height: 184px;
+}
+
+
+.WRED { 
+  position: absolute;
+  width: 189px;
+  height: 138px;
+  left: 125px;
+}
+
+.SIX {
+  position: absolute;
+  height: 123px;
+  width: 163px;
+  right: 138px;
+ }
+
+ 
+ @keyframes slide-in-left {
+  from {
+ transform: translateX(-100%);
+ }
+ to {
+ transform: translateX(0%);
+ }
+ }
+
+ .hand,.WRED {
+ animation: slide-in-left 1000ms;
+ }
+ 
+ .Bag{
+  position: absolute;
+  height: 214px;
+  width: 243px;
+  right: 0;
+  top: -32px;
+ }
+
+
+ @keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.SIX, .Bag {
+  animation: slide-in-right 1000ms;
+}
+
+.Milton{ 
+  color: white;
+  font-size:small ;
+  font-family: Roboto;
+}
+
+.Ages{
+  color: white;
+  font-size: xx-small;
+  font-family: Roboto;
+}
+
+
+
+.bote{
+  font-family: Nuosu SIL;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  color: #e29d84;
+}
+
+.te div{
+  display: flex;
+}
+
+@keyframes slide-in-top {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
+
+  .encima {
+    display: block;
+    animation: slide-in-top 1000ms;
+    animation-timing-function: linear;
+  }
+
+/*
+
+.angel {
+   transform: translate(-20px,0);
+   transition: transform 300ms;
+}
+
+:hover .angel {
+  transform: translate(0,0);
+}
+
+*/
