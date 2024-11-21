@@ -343,8 +343,73 @@ background-color: #75a1b8; /* Blue */
 /* BEGIN MEDIUM WIDTH RULES */
 @media only screen and (min-width: 768px) and (max-width: 1399px) {
   /* Code for medium width and bigger : */
+  .REDBOX{
+      width: 1350px;
+      height: 780px;
+    }
+  
+    .boxcenter{
+      width: 1080px;
+      height: 537px;
+    
+    }
 
+    .great-vibes-regular{
+      font-size: 89px;
+    }
 
+    .square{
+    width: 798px;
+    height: 756px;
+    top: -135px;
+    left: 132px;
+    display: grid;
+    align-content: space-between;
+    justify-content: start;
+    align-items: baseline;
+    justify-items: stretch;
+    position: absolute;
+    }
+
+    .scrabble-board{
+    width: 152%;
+    height: 166%;
+    }
+
+    .boxtop{
+      font-size: 407%;
+    }
+
+    .hand{
+      width: 463px;
+      height: 240px;
+      position: absolute;
+      top: 17px;
+      left: -55px;
+      bottom: 49px;
+    }
+
+    .Bag{
+      position: absolute;
+      height: 272px;
+      width: 399px;
+      right: -41px;
+      top: -43px;
+    }
+
+    .WRED{
+    position: absolute;
+    width: 245px;
+    height: 175px;
+    left: 128px;
+    }
+
+    .SIX{
+    position: absolute;
+    height: 207px;
+    width: 221px;
+    right: 138px;
+    }
 
 
   /* Laptop label */
@@ -371,7 +436,7 @@ background-color: #75a1b8; /* Blue */
   .square{
     width: 1300px;
     height: 1000px;
-     transform: perspective(1400px) rotateY(10deg) rotateX(48deg) rotateZ(-300deg);
+    transform: perspective(1400px) rotateY(10deg) rotateX(48deg) rotateZ(-300deg);
   }
 
   .great-vibes-regular{
