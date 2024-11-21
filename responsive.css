@@ -450,20 +450,52 @@ background-color: #75a1b8; /* Blue */
     height: 950px;
   }
 
-  .boxcenter{
+  .scrabble-board {
+ height: 100%;
+ width: 100%;
+ font-size: large;
+ transform: rotateZ(180deg);
+ position: absolute;
+}
+
+  .boxcenter {
     width: 1423px;
     height: 650px;
   }
 
-  .square{
-    width: 1300px;
-    height: 1000px;
-     transform: perspective(1400px) rotateY(10deg) rotateX(48deg) rotateZ(-300deg);
+  .square {
+    width: 746px;
+    height: 749px;
+    transform: perspective(1400px) rotateY(3deg) rotateX(38deg) rotateZ(137deg);
+    left: 345px;
+    top: -27px;
   }
 
   .great-vibes-regular{
     font-size: 100px;
   }
+  
+  .hand{
+    height:291px ;
+    width:561px ;
+  }
+
+  .Bag{
+    height: 421px;
+    width: 466px;
+   top: -94px;
+  }
+
+  .SIX{
+  height: 257px;
+   width: 164px;
+   left: 1354px;
+  }
+   .WRED{
+   height: 237px;
+   width: 201px;
+   left: 392px
+   }
 
   /* Widescreen label */
   main::before {
