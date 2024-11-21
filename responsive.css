@@ -528,19 +528,13 @@ background-color: #75a1b8; /* Blue */
     height: 650px;
   }
 
-<<<<<<< HEAD
-  .square{
-    width: 1300px;
-    height: 1000px;
-    transform: perspective(1400px) rotateY(10deg) rotateX(48deg) rotateZ(-300deg);
-=======
   .square {
     width: 746px;
     height: 749px;
     transform: perspective(1400px) rotateY(3deg) rotateX(38deg) rotateZ(137deg);
     left: 345px;
     top: -27px;
->>>>>>> b8185d59c62df6fa3d2a32179ebf33cfa9a2b41a
+
   }
 
   .great-vibes-regular{
